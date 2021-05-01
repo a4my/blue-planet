@@ -1,0 +1,52 @@
+.site-header {
+  background-color: rgba(0, 0, 0, 0.301);
+  padding: 10px;
+  width: 100%;
+  position: absolute;
+  top: 2.5rem;
+  z-index: 2;
+    
+  &__logo-section {
+    display: flex;
+    align-items: center;
+    
+    &--logo {
+      width: 2.5rem;
+      height: auto;
+    }
+
+    &--name {
+      color: #fff;
+      padding-left: 0.6rem;
+    }
+  }
+
+  &__menu-content {
+
+    li {
+      display: inline-block;
+      list-style-type: none;
+      padding-right: 1rem;
+    }
+
+    a {
+      color: #fff;
+      font-weight: 500;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+// .navbar {
+//   background-color: rgba(0,0,0, 0.3);
+//   position: absolute;
+//   top: 2.5rem;
+//   width: 100%;
+// }

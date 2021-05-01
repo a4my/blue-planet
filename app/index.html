@@ -8,15 +8,17 @@
   <link href='https://fonts.googleapis.com/css?family=Poppins:400,100,300,500,700' rel='stylesheet' type='text/css'>  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
   <link rel="stylesheet" href="./assets/styles/style.css">
-  <title>Blue Planet</title>
+  <title>Natural Wonders</title>
 </head>
 
 <header>
+
   <div class="site-header">
     <div class="wrapper">
-      <div class="site__logo-section">
-        <img class="site__logo-section--logo"src="/app/assets/images/header/earth-globe.svg" alt="earth-globe">
-        <p class="site__logo-section--name">Blue Planet</p>
+
+      <div class="site-header__logo-section">
+        <img class="site-header__logo-section--logo"src="/app/assets/images/header/earth-globe--white.png" alt="earth-globe">
+        <p class="site-header__logo-section--name">Natural Wonders</p>
       </div>
 
       <nav class="site-header__menu-content">
@@ -29,7 +31,14 @@
 
     </div>
   </div>
-  
+
+  <picture class="large-hero__image">
+    <source srcset="assets/images/header/hero-very-large.jpg 1920w" media="(min-width: 1380px)">
+    <source srcset="assets/images/header/hero-large.jpg  1380w" media="(min-width: 990px)">
+    <source srcset="assets/images/header/hero-medium.jpg  990w" media="(min-width: 640px)">
+    <img srcset="assets/images/header/hero-small.jpg  640w" alt="Blue Planet Header">
+  </picture>
+
 </header>
 <body>
   

@@ -12,4 +12,62 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.site-header {
+  background-color: rgba(0, 0, 0, 0.301);
+  padding: 10px;
+  width: 100%;
+  position: absolute;
+  top: 2.5rem;
+  z-index: 2;
+}
+
+.site-header__logo-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.site-header__logo-section--logo {
+  width: 2.5rem;
+  height: auto;
+}
+
+.site-header__logo-section--name {
+  color: #fff;
+  padding-left: 0.6rem;
+}
+
+.site-header__menu-content li {
+  display: inline-block;
+  list-style-type: none;
+  padding-right: 1rem;
+}
+
+.site-header__menu-content a {
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 /*# sourceMappingURL=style.css.map */
