@@ -13,17 +13,12 @@ html {
   scroll-behavior: smooth;
 }
 
-img {
-  width: 100%;
-  height: auto;
-}
-
 .site-header {
   background-color: rgba(0, 0, 0, 0.301);
   padding: 10px;
   width: 100%;
   position: absolute;
-  top: 2.5rem;
+  top: 0;
   z-index: 2;
 }
 
@@ -49,7 +44,7 @@ img {
 .site-header__menu-content li {
   display: inline-block;
   list-style-type: none;
-  padding-right: 1rem;
+  padding-right: 2rem;
 }
 
 .site-header__menu-content a {
@@ -57,6 +52,10 @@ img {
   font-weight: 500;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.site-header__menu-content a:hover {
+  color: #F79F1F;
 }
 
 .wrapper {
@@ -69,5 +68,42 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.hero {
+  position: relative;
+  background-image: url("/app/assets/images/header/hero-very-large1.jpg");
+  background-color: #cccccc;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.hero__text-content {
+  color: #fff;
+  -webkit-backdrop-filter: blur(6px);
+          backdrop-filter: blur(6px);
+  border-radius: 2rem;
+  border: 3px solid #fff;
+  padding: 1.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.hero__text-content--title {
+  text-shadow: 2px 2px 2px black;
+}
+
+.hero__text-content--subtitle {
+  text-shadow: 2px 2px 2px black;
 }
 /*# sourceMappingURL=style.css.map */
