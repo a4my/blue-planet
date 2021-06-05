@@ -72,7 +72,7 @@ html {
 
 .hero {
   position: relative;
-  background-image: url("/app/assets/images/header/hero-very-large1.jpg");
+  background-image: url("/app/assets/images/header/hero-very-large.jpg");
   background-color: #cccccc;
   height: 100vh;
   background-position: center;
@@ -105,5 +105,33 @@ html {
 
 .hero__text-content--subtitle {
   text-shadow: 2px 2px 2px black;
+}
+
+.socials {
+  -webkit-backdrop-filter: blur(6px);
+          backdrop-filter: blur(6px);
+  border-radius: 2rem 0 0 2rem;
+  width: 5rem;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 1;
+}
+
+.socials__icon {
+  color: #fff;
+  font-size: 2.5rem;
+  text-decoration: none;
+  display: block;
+  padding: 1.5rem 0 1.5rem 1.5rem;
 }
 /*# sourceMappingURL=style.css.map */
