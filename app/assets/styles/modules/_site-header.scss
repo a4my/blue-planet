@@ -1,7 +1,6 @@
 .site-header {
-  // background-color: rgba(0, 0, 0, 0.301);
   backdrop-filter: blur(6px);
-  border: 3px solid #fff;
+  border-bottom: 3px solid #fff;
   padding: 10px;
   width: 100%;
   position: absolute;
@@ -9,6 +8,7 @@
   z-index: 2;
     
   &__logo-section {
+    cursor: pointer;
     display: flex;
     align-items: center;
     

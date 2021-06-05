@@ -16,7 +16,7 @@ html {
 .site-header {
   -webkit-backdrop-filter: blur(6px);
           backdrop-filter: blur(6px);
-  border: 3px solid #fff;
+  border-bottom: 3px solid #fff;
   padding: 10px;
   width: 100%;
   position: absolute;
@@ -25,6 +25,7 @@ html {
 }
 
 .site-header__logo-section {
+  cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -80,6 +81,7 @@ html {
   position: relative;
   background-image: url("/app/assets/images/header/hero-very-large.jpg");
   background-color: #cccccc;
+  border: 3px solid #fff;
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -118,7 +120,9 @@ html {
 .socials {
   -webkit-backdrop-filter: blur(6px);
           backdrop-filter: blur(6px);
-  border: 3px solid #fff;
+  border-left: 3px solid #fff;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
   border-radius: 2rem 0 0 2rem;
   width: 5rem;
   position: absolute;
@@ -144,5 +148,95 @@ html {
   padding: 1.5rem 0 1.5rem 1.5rem;
   -webkit-filter: drop-shadow(2px 1px 2px black);
           filter: drop-shadow(2px 1px 2px black);
+}
+
+.view-more {
+  cursor: pointer;
+  width: 18rem;
+  height: 6rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  -webkit-backdrop-filter: blur(6px);
+          backdrop-filter: blur(6px);
+  border-top: 3px solid #fff;
+  border-right: 3px solid #fff;
+  border-radius: 0 2rem 0 0;
+  padding-top: 2rem;
+  z-index: 1;
+}
+
+.view-more__text {
+  color: #fff;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 2px black;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.view-more span {
+  padding-left: 1rem;
+}
+
+.arrows {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: #fff;
+  -webkit-backdrop-filter: blur(6px);
+          backdrop-filter: blur(6px);
+  border-left: 3px solid #fff;
+  border-top: 3px solid #fff;
+  border-radius: 2rem 0 0 0;
+  text-shadow: 2px 2px 2px black;
+}
+
+.arrows__container {
+  position: relative;
+  width: 18rem;
+  height: 6rem;
+}
+
+.arrows__icon {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  font-size: 2.8rem;
+}
+
+.arrows__icon--right {
+  -webkit-transform: translate(80%, -50%);
+          transform: translate(80%, -50%);
+  left: 50%;
+}
+
+.arrows__icon--left {
+  -webkit-transform: translate(-80%, -50%);
+          transform: translate(-80%, -50%);
+  right: 50%;
+}
+
+.arrow-down {
+  position: absolute;
+  left: 50%;
+  bottom: 1%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  font-size: 3rem;
+}
+
+.arrow-down a {
+  color: #ffffff;
+  text-shadow: 2px 2px 2px black;
 }
 /*# sourceMappingURL=style.css.map */
