@@ -2,7 +2,7 @@
   position: relative;
   background-image: url("/app/assets/images/header/hero-very-large.jpg");
   background-color: #cccccc;
-  border: 3px solid #fff;
+  // border: 3px solid #fff;
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -10,6 +10,7 @@
   position: relative;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 
     &__text-content {
         color: #fff;
