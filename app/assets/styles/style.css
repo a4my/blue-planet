@@ -130,13 +130,13 @@ html {
 .socials {
   -webkit-backdrop-filter: blur(6px);
           backdrop-filter: blur(6px);
-  border-left: 3px solid #fff;
+  border-right: 3px solid #fff;
   border-top: 3px solid #fff;
   border-bottom: 3px solid #fff;
-  border-radius: 2rem 0 0 2rem;
+  border-radius: 0 2rem 2rem 0;
   width: 5rem;
   position: absolute;
-  right: 0;
+  left: 0;
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -147,6 +147,9 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   overflow: hidden;
   z-index: 1;
 }
