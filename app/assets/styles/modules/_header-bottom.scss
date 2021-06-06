@@ -71,51 +71,6 @@
 }
 
 
-// .arrows {
-    // width: 20rem;
-    // height: 7rem;
-    // position: absolute;
-    // right: 0;
-    // bottom: 0;
-    // color: #fff;
-    // backdrop-filter: blur(6px);
-    // border-left: 3px solid #fff;
-    // border-top: 3px solid #fff;
-    // border-radius: 2rem 0 0 0;
-    // text-shadow: 2px 2px 2px rgba(0, 0, 0, 99);
-    
-    
-    // &__container {
-    //     position: relative;
-    //     width: 18rem;
-    //     height: 6rem;
-    // }
-    
-    // &__icon {
-    //     cursor: pointer;
-    //     color: #fff;
-    //     position: absolute;
-    //     top: 50%;
-    //     font-size: 2.8rem;
-    //     transition: all .3s ease-in-out;
-
-        
-        // &--right {
-        //     transform: translate(80%, -50%);
-        //     left: 50%;
-
-        //     &:hover {
-        //         transform: translateY(-0.01px) scale(1.05);
-        //     }
-        // }
-        
-        // &--left {
-        //     transform: translate(-80%, -50%);
-        //     right: 50%;
-        // }
-//     }
-// }
-
 .arrows {
     backdrop-filter: blur(6px);
     border-left: 3px solid #fff;
